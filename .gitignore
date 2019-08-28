@@ -1,0 +1,17 @@
+.DS_Store
+.DS_Store
+*.swp
+*.~
+/bin
+*.pyc
+tags
+src/tags
+conf/*.json
+conf/*.yml
+config.git-hash
+*.tmp
+.build
+*.bz2
+*.gz
+*.zip
+logs

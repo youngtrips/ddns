@@ -1,0 +1,16 @@
+domain: example.com
+records: ["hello"]
+
+
+# only support json(with a field `ip` contain the ip address) format response
+check_ip_url: https://myip.geekjoys.com
+# check ip interval, by seconds
+check_interval: 30
+
+
+# DNS provider plugin
+dns_plugin:
+    name: alidns
+    params:
+        access_key_id: aaaaaaaaaaaaaaaaa
+        access_key_secret: 111111111111111111111
